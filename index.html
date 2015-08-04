@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- FONTS -->
+		<link href="http://reset5.googlecode.com/hg/reset.min.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Mono:400,100,100italic,300italic,300,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- END FONTS -->
+
+		<!-- STYLES -->
+		<!-- END STYLES -->
+
+		<!-- SCRIPTS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="assets/js/scrollwatch.js"></script>
+		<script src="assets/js/main.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>-->
+		<!-- END SCRIPTS -->
+	</head>
+	<body>
+		<header class="nav">
+			<div class="logo">
+				<h1>Michael Hotwagner</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<a href="#bio">
+						<li id="navBio">bio</li>
+					</a>
+					<!--<a href="#portfolio">
+						<liid="navPortfolio">portfolio</li>
+					</a>-->
+					<a href="#cv">
+						<li id="navCv">resume</li>
+					</a>
+					<!--<a href="#contact">
+						<li id="navContact">contact</li>
+					</a>-->
+				</ul>
+			</div>
+		</header>
+		<section class="hero standard-container fullscreen" id="hero" data-nav="#navHero">
+			<a name="hero"></a>
+			<div class="inner">
+				<h1 class="title">
+					Michael Hotwagner
+			 	</h1>
+			 </div>
+		</section>
+		<section class="bio standard-container fullscreen greyback" id="bio" data-nav="#navBio">
+		<a name="bio"></a>
+			<div class="inner">
+				<div class="wrapper">
+					<p>
+						<strong>Full stack</strong> web <strong>developer</strong> with <strong>8 years</strong> experience in designing, developing, and implementing functional and elegant web solutions.  Innovative use of current and evolving technologies to <strong>create efficient backend systems</strong> and <strong>intuitive and interactive front end systems</strong>, and to combine both into comprehensive web solutions.  Proven ability to work with clients from design through development and implementation to <strong>efficiently deliver an excellent product</strong>.
+					</p>
+				</div>
+			 </div>
+		</section>
+		<section class="cv standard-container" id="cv" data-nav="#navCv">
+			<a name="cv"></a>
+			<div class="inner">
+				<object data="assets/files/michael-hotwagner-cv.pdf" type="application/pdf" width="828px" height="1065px">
+				  <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+				</object>
+			</div>
+		</section>
+	</body>
+</html>

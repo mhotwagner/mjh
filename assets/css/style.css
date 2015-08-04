@@ -1,0 +1,90 @@
+.standard-container {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .standard-container.fullscreen {
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .standard-container .inner {
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%; }
+
+* {
+  color: #333;
+  font-family: "Roboto mono", "Lucida Console", Monaco, monospace; }
+
+a, a:visted {
+  color: #333; }
+
+a {
+  text-decoration: none; }
+
+.nav {
+  width: 100%;
+  position: fixed;
+  padding: 15px 0;
+  z-index: 1000;
+  background: #fff; }
+  .nav div {
+    display: inline-block; }
+  .nav .logo {
+    position: relative;
+    top: -100%;
+    width: 25%;
+    text-align: center;
+    transition: all 500ms ease-out; }
+    .nav .logo h1 {
+      font-size: 1em; }
+  .nav .menu {
+    width: 50%;
+    text-align: center; }
+    .nav .menu ul {
+      padding-left: 0; }
+      .nav .menu ul a {
+        margin: 0 15px; }
+        .nav .menu ul a li {
+          display: inline-block; }
+          .nav .menu ul a li:hover, .nav .menu ul a li.focus {
+            text-decoration: underline; }
+  .nav.fixed {
+    position: fixed;
+    top: 0;
+    height: auto; }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.greyback {
+  background-color: #eee; }
+
+.hero {
+  text-align: center; }
+  .hero h1 {
+    font-size: 4em;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.bio .wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+  .bio .wrapper p {
+    font-size: 1.25em;
+    font-weight: 200;
+    line-height: 1.5em; }
+    .bio .wrapper p strong {
+      font-weight: 400; }
+
+.cv {
+  padding: 100px 0;
+  text-align: center; }
+  .cv object {
+    pointer-events: none; }
+
+/*# sourceMappingURL=style.css.map */

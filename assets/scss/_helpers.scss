@@ -1,0 +1,11 @@
+
+@mixin valign-this() {
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+@mixin unvalign-this() {
+	top: 0;
+	transform: translateY(0);
+}

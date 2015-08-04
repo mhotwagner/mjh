@@ -1,0 +1,43 @@
+@import 'helpers';
+@import 'layout';
+@import 'typography';
+
+@import 'nav';
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.greyback {
+	background-color: #eee;
+}
+
+.hero {
+	text-align: center;
+
+	h1 {
+		font-size: 4em;
+		width: 100%;
+		@include valign-this();
+	}
+}
+.bio {
+	.wrapper {
+		@include valign-this();
+		p {
+			font-size: 1.25em;
+			font-weight: 200;
+			line-height: 1.5em;
+			strong {
+				font-weight: 400;
+			}
+		}
+	}
+}
+.cv {
+	padding: 100px 0;
+	object { pointer-events: none; }
+	text-align: center;
+}
