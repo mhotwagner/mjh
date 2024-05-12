@@ -1,7 +1,0 @@
-base64: invalid argument hahaha
-Usage:	base64 [-Ddh] [-b num] [-i in_file] [-o out_file]
-  -b, --break    break encoded string into num character lines
-  -Dd, --decode   decodes input
-  -h, --help     display this message
-  -i, --input    input file (default: "-" for stdin)
-  -o, --output   output file (default: "-" for stdout)
